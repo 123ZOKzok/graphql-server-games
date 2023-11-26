@@ -1,4 +1,4 @@
-let gamesData = [
+let games = [
     { id: 1, title: 'The Legend of Zelda: Breath of the Wild', platform: 'Nintendo Switch' },
     { id: 2, title: 'Red Dead Redemption 2', platform: 'PlayStation 4' },
     { id: 3, title: 'Minecraft', platform: 'PC' },
@@ -94,3 +94,5 @@ let gamesData = [
       game_id: 210,
     },
   ];
+  
+  export default { games, authors, reviews}
